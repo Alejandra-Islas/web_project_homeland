@@ -14,7 +14,6 @@
   font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  color: white;
   text-transform: uppercase;
 }
 
@@ -25,12 +24,12 @@
 
   .header__logo {
     width: 32;
-    height: 30.17;
+    height: 30;
     opacity: 1;
   }
 
   .header__logo-text {
-    font-size: 14.09px;
+    font-size: 14px;
   }
 }
 
@@ -41,12 +40,12 @@
   }
 
   .header__logo {
-    width: 23.685039520263672;
-    height: 23.77142906188965;
+    width: 24;
+    height: 24;
     opacity: 1;
   }
 
   .header__logo-text {
-    font-size: 11.1px;
+    font-size: 11px;
   }
 }
