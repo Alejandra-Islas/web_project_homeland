@@ -1,0 +1,52 @@
+.header__logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.header__logo {
+  width: 32px;
+  height: 32px;
+}
+
+.header__logo-text {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__logo-wrapper {
+    margin-top: 30px;
+  }
+
+  .header__logo {
+    width: 32;
+    height: 30.17;
+    opacity: 1;
+  }
+
+  .header__logo-text {
+    font-size: 14.09px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo-wrapper {
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .header__logo {
+    width: 23.685039520263672;
+    height: 23.77142906188965;
+    opacity: 1;
+  }
+
+  .header__logo-text {
+    font-size: 11.1px;
+  }
+}
