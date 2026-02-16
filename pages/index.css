@@ -6,7 +6,7 @@
 @import url("../blocks/intro.css");
 @import url("../blocks/footer.css");
 
-.page {
+.site {
   background-color: #2a2c2f;
   color: #fff;
   font-family: "Inter", Arial, sans-serif;
@@ -15,7 +15,7 @@
   margin: 0;
 }
 
-.page__content {
+.page {
   max-width: 1280px;
   margin: 0 auto;
 }
