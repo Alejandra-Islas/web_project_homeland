@@ -1,4 +1,6 @@
 .footer {
+  width: 100%;
+  box-sizing: border-box;
   padding-bottom: 24px;
   display: flex;
   justify-content: center;
@@ -6,8 +8,9 @@
 }
 
 .footer__copyright {
+  max-width: 100%;
   width: 194px;
-  height: 16px;
+  height: auto;
   font-family: "Inter", sans-serif;
   line-height: 16px;
   text-align: center;

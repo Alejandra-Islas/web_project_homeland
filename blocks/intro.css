@@ -3,6 +3,7 @@
   margin-left: 148px;
   margin-right: 302px;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 
 .intro__title {

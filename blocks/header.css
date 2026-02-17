@@ -1,3 +1,10 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
 .header__logo-wrapper {
   display: flex;
   flex-direction: column;
@@ -8,6 +15,7 @@
 .header__logo {
   width: 32px;
   height: 32px;
+  margin-bottom: 0;
 }
 
 .header__logo-text {
@@ -15,36 +23,29 @@
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
 }
 
 @media screen and (max-width: 1279px) {
   .header__logo-wrapper {
     margin-top: 30px;
   }
-
   .header__logo {
-    width: 32;
-    height: 30;
-    opacity: 1;
-  }
-
-  .header__logo-text {
-    font-size: 14px;
+    width: 32px;
+    height: 30px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header__logo-wrapper {
-    align-items: center;
     margin-top: 20px;
+    width: 100%;
   }
-
   .header__logo {
-    width: 24;
-    height: 24;
-    opacity: 1;
+    width: 24px; 
+    height: 24px;
   }
-
   .header__logo-text {
     font-size: 11px;
   }
