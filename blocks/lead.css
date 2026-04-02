@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 56px;
 }
 
 .lead__title {
@@ -11,7 +10,7 @@
   font-size: 96px;
   line-height: 1.04;
   max-width: 720px;
-  margin: 0 auto;
+  margin: 91px auto 0;
 }
 
 .lead__subtitle {
@@ -32,22 +31,29 @@
   margin: 64px auto 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .lead__title {
     font-size: 75px;
-    line-height: 1.05;
+    line-height: 1.05;  
+    margin: 90px auto 0;
   }
 
+  .lead__subtitle {
+    margin: 25px auto 0;
+    font-size: 30px;
+}
+
   .lead__image {
-    margin-top: 56px;
+    margin-top: 30px;
   }
 }
 
-@media screen and (max-width: 543px) {
+@media screen and (max-width: 320px) {
   .lead__title {
     font-size: 40px;
     line-height: 1.1;
     max-width: 288px;
+    margin: 50px auto 0;
   }
 
   .lead__subtitle {

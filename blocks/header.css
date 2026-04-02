@@ -27,7 +27,7 @@
   line-height: 1.2;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 768px) {
   .header__logo-wrapper {
     margin-top: 30px;
   }
@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .header__logo-wrapper {
     margin-top: 20px;
     width: 100%;
